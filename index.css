@@ -1,0 +1,60 @@
+* {
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header wrap for logo and nav bar */
+.site-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#1F2937;
+    margin: auto;
+}
+
+/* Nav bar Flex styling */
+.NavBar {
+    display: inline-flex;
+}
+
+/* logo image size styling */
+img {
+    height:auto;
+    width:15%;
+}
+
+/* Nav bar Home item styling*/
+.Home {
+    align-self: flex-end;
+    padding-right: 10px;
+}
+
+/* Nav bar About item styling*/
+.About {
+    align-self: flex-end;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Nav bar Contact item styling*/
+.Contact {
+    align-self: flex-end;
+    padding-left: 15x;
+}
+
+/* Nav bar items (Home, About & Contact) link styling*/
+a:link {
+    color: white; /*Makes link text white instead of blue*/
+    text-decoration: none; /* Removes the uderline*/
+    font-size: small;
+}
+
+/* Mouse over link*/
+a:hover {
+    color: dimgray;
+}
+
+/* Visited or Clicked-on link*/
+a:visited {
+    color: darkslateblue;
+}
