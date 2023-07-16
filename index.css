@@ -8,8 +8,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color:#1F2937;
     margin: auto;
+    width: 100%;
+    padding-top: 10px;
 }
 
 /* Nav bar Flex styling */
@@ -26,27 +27,27 @@ img {
 /* Nav bar Home item styling*/
 .Home {
     align-self: flex-end;
-    padding-right: 10px;
+    padding-right: 50px;
 }
 
 /* Nav bar About item styling*/
 .About {
     align-self: flex-end;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 50px;
+    padding-left: 25px;
 }
 
 /* Nav bar Contact item styling*/
 .Contact {
     align-self: flex-end;
-    padding-left: 15x;
+    padding-left: 50x;
 }
 
 /* Nav bar items (Home, About & Contact) link styling*/
 a:link {
     color: white; /*Makes link text white instead of blue*/
     text-decoration: none; /* Removes the uderline*/
-    font-size: small;
+    font-size: medium;
 }
 
 /* Mouse over link*/
@@ -58,3 +59,24 @@ a:hover {
 a:visited {
     color: darkslateblue;
 }
+
+body {
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
+header, footer {
+    background-color:#1F2937; 
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
