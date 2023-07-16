@@ -1,5 +1,5 @@
 * {
-    line-height: 1.5;
+    line-height: 1.2;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -74,9 +74,107 @@ main {
 header, footer {
     background-color:#1F2937; 
     color: white;
-    height: 80px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+/*Styling for the hero section*/
+.hero {
+    background-color:#1F2937;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
+    height: 350px;
+}
+
+/* Visited or Clicked-on link*/
+.intro-text h1 {
+    font-size: 48px extra-bold;
+    margin-bottom: 0.5px;
+    color: #F9FAF8;
+    align-items: center;
+    padding-left: 180px;
+}
+
+
+ .intro-text P {
+    font-size: 18px;
+    color: #F9FAF8;
+    padding-left: 180px;
+ }
+
+ .HeroImage {
+    width: 29%;
+    height: 19%;
+    object-fit: cover;
+    border-radius: 2px;
+    position: absolute;
+    right: 180px;
+
+    
+ }
+
+ /*Styling for the signup button*/
+.signup-button {
+    position: relative;
+    left: 180px;
+    top: 1%;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px #1F2937;
+    padding: 9px 35px;
+    font-size: medium;
+    color: #F9FAF8;
+    min-width: 120px;
+    min-height: 30px;
+    text-align: center;
+    cursor: pointer;
+ }
+
+ /*Mouse over effect on signup button*/
+ .signup-button:hover {
+    background-color: #6ea2f7;
+ }
+
+ /*Click-effect when signup button is clicked or made active*/
+ .signup-button:active {
+    background-color: #6ea2f7;
+    box-shadow: 0 2px #304764;
+    transform: translateY(2px);
+ }
+
+ .section-main2 {
+    background-color:white;
+    background-size: 10%;
+
+    height: 50px;
+ }
+
+ div.figure {
+    margin: 10px;
+    padding: 10px;
+ }
+
+ .h2 {
+    font-size: 36px;
+    text-align: center;
+ }
+
+
+ .figure1 {
+    border: #3882F6 thin solid;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+ }
+
+.figcaption {
+    display: ;
+}
