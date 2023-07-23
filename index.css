@@ -154,10 +154,11 @@ header, footer {
     transform: translateY(2px);
  }
 
+ /*SECTION  2*/
  .section-main2 {
     background-color:white;
     background-size: 10%;
-    height: 50px;
+    height: 410px;
     text-align: center;
  }
 
@@ -170,7 +171,7 @@ header, footer {
 
  }
 
-   /*Main Section 2 - Skills*/
+   /*Skills*/
  .h2 {
     font-size: 36px;
  }
@@ -196,3 +197,30 @@ figcaption {
     color: #5e5f61;
     margin-top: 1%;
 }
+
+/*SECTION  3*/
+.section-main3 {
+    background-color: #E5E7EB;
+    background-size: 10%;
+    height: 410px;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+ }
+
+div.Quote {
+    font-size: 36px;
+    color: #51565e;
+    text-align: center;
+    margin-top: 7%;
+ }
+
+
+ div.QuoteSource {
+    font-size: 20px;
+    color: #1a1b1d;
+    text-align: center;
+    margin-top: 13%;
+    margin-left: -150px;
+    font-weight: bold;
+ }
