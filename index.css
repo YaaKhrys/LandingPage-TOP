@@ -121,7 +121,7 @@ header, footer {
     object-fit: cover;
     border-radius: 2px;
     position: absolute;
-    right: 340px;    
+    right: 380px;    
  }
 
  /*Styling for the signup button*/
@@ -170,19 +170,29 @@ header, footer {
 
  }
 
+   /*Main Section 2 - Skills*/
  .h2 {
     font-size: 36px;
  }
 
+ .section-main2 figure {
+    border: thin #ffffff solid;
+    padding: 5px;
+    max-width: 220px;
+    margin-top: 3%;
+    display: inline-block;
+ }
 
- .figure1 {
-    border: #3882F6 thin solid;
+
+ .figure1, .figure2, .figure3, .figure4 {
     border-radius: 5px;
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     object-fit: cover;
  }
 
-.figcaption {
-    display: ;
+figcaption {
+    font-size: 13px;
+    color: #5e5f61;
+    margin-top: 1%;
 }
