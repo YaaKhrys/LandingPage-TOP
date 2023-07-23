@@ -124,8 +124,8 @@ header, footer {
     right: 380px;    
  }
 
- /*Styling for the signup button*/
-.signup-button {
+ /*Styling for the hero signup button*/
+.signup-button1 {
     position: relative;
     left:380px;
     top: 1%;
@@ -143,12 +143,12 @@ header, footer {
  }
 
  /*Mouse over effect on signup button*/
- .signup-button:hover {
+ .signup-button1:hover {
     background-color: #6ea2f7;
  }
 
  /*Click-effect when signup button is clicked or made active*/
- .signup-button:active {
+ .signup-button1:active {
     background-color: #6ea2f7;
     box-shadow: 0 2px #304764;
     transform: translateY(2px);
@@ -206,6 +206,7 @@ figcaption {
     display: flex;
     justify-content: center;
     font-style: italic;
+    margin-top: 3%;
  }
 
 div.Quote {
@@ -223,4 +224,62 @@ div.Quote {
     margin-top: 13%;
     margin-left: -150px;
     font-weight: bold;
+ }
+
+
+ /*SECTION  4*/
+ .section-main4 {
+    background-color: #ffffff;
+    background-size: 10%;
+    height: 410px;
+    display: flex;
+    justify-content: center;
+ }
+
+ .rectangle {
+    width: 1000px;
+    height: 150px;
+    border-radius: 5px;
+    background: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7%;
+ }
+
+ .rectangle p3 {
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 5%;
+    margin-left: 10%;
+ }
+
+ /*Styling for the hero signup button*/
+.signup-button2 {
+    position: relative;
+    top: 35%;
+    right: 70%;
+    background-color: #3882F6;
+    border-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px #435e85;
+    padding: 9px 35px;
+    font-size: medium;
+    color: #F9FAF8;
+    min-width: 120px;
+    min-height: 30px;
+    text-align: center;
+    cursor: pointer;
+ }
+
+ 
+  /*Mouse over effect on signup button*/
+ .signup-button2:hover {
+    background-color: #6ea2f7;
+ }
+
+ /*Click-effect when signup button is clicked or made active*/
+ .signup-button2:active {
+    background-color: #6ea2f7;
+    box-shadow: 0 2px #304764;
+    transform: translateY(2px);
  }
