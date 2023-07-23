@@ -100,7 +100,7 @@ header, footer {
     align-items: center;
     padding-left: 180px;
     position: relative;
-    left: 24%;
+    left: 22%;
     top: 1%;
 }
 
@@ -110,7 +110,7 @@ header, footer {
     color: #F9FAF8;
     padding-left: 180px;
     position: relative;
-    left: 24%;
+    left: 22%;
     top: 1%;
  }
 
@@ -121,13 +121,13 @@ header, footer {
     object-fit: cover;
     border-radius: 2px;
     position: relative;
-    right: 19%;
+    right: 18%;
  }
 
  /*Styling for the hero signup button*/
 .signup-button1 {
     position: relative;
-    left: 56%;
+    left: 54%;
     top: 1%;
     background-color: #3882F6;
     border: none;
