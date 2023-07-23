@@ -116,8 +116,8 @@ header, footer {
 
  /* Main image on Hero section of Page (Header)*/
  .HeroImage {
-    width: 460px;
-    height: 220px;
+    width: 360px;
+    height: 180px;
     object-fit: cover;
     border-radius: 2px;
     position: relative;
