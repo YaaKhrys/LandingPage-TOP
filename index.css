@@ -116,8 +116,8 @@ header, footer {
 
  /* Main image on Hero section of Page (Header)*/
  .HeroImage {
-    width: 20%;
-    height: 19%;
+    width: 500px;
+    height: 250px;
     object-fit: cover;
     border-radius: 2px;
     position: relative;
@@ -221,7 +221,7 @@ div.Quote {
     font-size: 20px;
     color: #1a1b1d;
     text-align: center;
-    margin-top: 13%;
+    margin-top: 15%;
     margin-left: -150px;
     font-weight: bold;
  }
